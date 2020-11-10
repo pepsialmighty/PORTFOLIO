@@ -1,0 +1,116 @@
+.about__container {
+  width: 100%;
+  height: 170vh;
+}
+
+.about__wrapper {
+  width: 100%;
+  height: 170vh;
+  padding: 0px 50px;
+  overflow: hidden;
+  background-color: rgb(7, 6, 6);
+}
+
+.images {
+  position: absolute;
+  object-fit: contain;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .about__tittle {
+  width: 100%;
+  height: 100px;
+  padding: 20px 100px;
+  background-color: red;
+} */
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 95vh;
+  position: relative;
+  /* background-color: red; */
+}
+
+.about__me {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.about__pictures {
+  width: 100%;
+  height: 80%;
+  background-color: blue;
+}
+
+.about__one {
+  height: 420px;
+  width: 334px;
+  border-radius: 300px;
+  overflow: hidden;
+  top: 10px;
+}
+
+.about__two {
+  height: 550px;
+  width: 400px;
+  top: 150px;
+  left: 5%;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.about__four {
+  height: 240px;
+  width: 240px;
+  top: 700px;
+  margin-left: 23rem;
+  border: 1 solid white;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.about__para {
+  width: 100%;
+  height: 80%;
+}
+
+.about__para p {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 100px;
+  color: white;
+  font-weight: 800;
+}
+
+.about__paraLong {
+  margin-top: 0;
+  /* background-color: red; */
+}
+
+.about__paraLong p {
+  width: 70%;
+  text-align: justify;
+  margin-top: 0px;
+}
+
+.about__ava {
+  width: 50%;
+  height: 60%;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  transform: translate(-4rem, -14rem);
+}
