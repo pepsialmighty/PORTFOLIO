@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 
-import one from '../../images/1.jpg';
-import two from '../../images/2.jpg';
-import three from '../../images/3.jpg';
-import four from '../../images/4.jpg';
+import one from '../../assets/images/1.jpg';
+import two from '../../assets/images/2.jpg';
+import three from '../../assets/images/3.jpg';
+import four from '../../assets/images/4.jpg';
 
 import './AboutMe.css';
 import Header from '../Header/Header';

@@ -6,7 +6,7 @@ import Hamburger from './Hamburger';
 import './Header.scss';
 
 const Header = ({ history }) => {
-  const [showHeader, setShowHeader] = useState(false);
+  const [showHeader, setShowHeader] = useState(true);
   const [state, setState] = useState({
     initial: false,
     opened: null,
@@ -27,16 +27,16 @@ const Header = ({ history }) => {
 
   let headerMenu = useRef(null);
 
-  useEffect(() => {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY >= 1) {
-        // console.log(window.scrollY);
-        setShowHeader(true);
-      } else {
-        setShowHeader(false);
-      }
-    });
-  });
+  // useEffect(() => {
+  //   window.addEventListener('scroll', () => {
+  //     if (window.scrollY >= 1) {
+  //       // console.log(window.scrollY);
+  //       setShowHeader(true);
+  //     } else {
+  //       setShowHeader(false);
+  //     }
+  //   });
+  // });
 
   useEffect(() => {
     if (showHeader === true) {

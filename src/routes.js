@@ -8,6 +8,8 @@ import Recommendation from './Components/Recommendation';
 import AboutMe from './Components/AboutMe';
 import Home from './Components/Home';
 import Resume from './Components/Resume';
+import Projects from './Components/Projects';
+import Contact from './Components/contact/contact';
 
 import ScrollToTop from './Components/utils/ScrollToTop';
 
@@ -20,8 +22,9 @@ function Routes() {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/about' component={AboutMe} />
-            <Route exact path='/solutions' component={Recommendation} />
-            <Route exact path='/contact-us' component={Resume} />
+            <Route exact path='/projects' component={Projects} />
+            <Route exact path='/contact' component={Contact} />
+            <Route exact path='/testimonial' component={Recommendation} />
           </Switch>
         </ScrollToTop>
       </div>

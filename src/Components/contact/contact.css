@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.contact__container {
+  height: 100vh;
+  width: 100%;
+  background-color: #070606;
+  color: white;
+
+  position: relative;
+}
+
+.contact__wrapper {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  padding: 0 20px;
+  transform: translateY(-50%);
+}
+
+.contact__title {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.contact__title h1 {
+  font-size: 50px;
+  color: rgb(188, 190, 207);
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.contact__form {
+  max-width: 650px;
+  margin: 0 auto;
+  background: rgba(19, 18, 18, 0.8);
+  padding: 30px;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+  width: 48%;
+}
+
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(188, 190, 207);
+  padding: 10px;
+  color: rgb(188, 190, 207);
+  width: 100%;
+  font-weight: bold;
+}
+
+.msg textarea {
+  height: 212px;
+}
+
+.msg input {
+  background: #8ebcca;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  color: #070606;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 8rem;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(188, 190, 207);
+}
+::-moz-input-placeholder {
+  color: rgb(188, 190, 207);
+}
+::-ms-input-placeholder {
+  color: rgb(188, 190, 207);
+}
+
+@media screen and (max-width: 600px) {
+  .contact__form {
+    flex-direction: column;
+  }
+
+  .input-fields,
+  .msg {
+    width: 100%;
+  }
+
+  .msg textarea {
+    height: 80px;
+  }
+
+  .contact__title {
+    top: 5%;
+  }
+
+  .contact__title h1 {
+    font-size: 40px;
+  }
+}

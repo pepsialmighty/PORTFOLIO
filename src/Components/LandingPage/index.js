@@ -5,7 +5,7 @@ import { Tween, Timeline } from 'react-gsap';
 import * as ScrollMagic from 'scrollmagic';
 
 import './landingPage.css';
-import coffe from '../../video/coffe.mp4';
+import coffe from '../../assets/video/coffe.mp4';
 
 import VideoPlay from '../VideoPlay/VideoPlay';
 
@@ -16,7 +16,7 @@ const Landing = () => {
   }, []);
 
   return (
-    <div style={{ overflow: 'hidden' }}>
+    <div className='landing__container'>
       <div className='intro'>
         <Controller globalSceneOptions={{ triggerHook: 'onLeave' }}>
           <Scene
@@ -73,6 +73,7 @@ const Landing = () => {
           </Scene>
         </Controller>
       </div>
+      <div className='blur'></div>
       {/* <section></section> */}
     </div>
   );

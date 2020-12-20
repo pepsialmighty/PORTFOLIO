@@ -3,16 +3,22 @@ import './Home.css';
 
 import AboutMe from '../AboutMe';
 import Landing from '../LandingPage';
-import SectionWipes from '../Recommendation';
+import Recommendation from '../Recommendation';
 import Header from '../Header/Header';
 import Resume from '../Resume';
+import Project from '../Projects';
+import Contact from '../contact/contact';
+import Footer from '../Footer/footer';
 
 const Home = () => {
   return (
     <div className='home'>
       <Landing />
       <AboutMe />
-      <Resume />
+      <Project />
+      <Recommendation />
+      <Contact />
+      <Footer />
     </div>
   );
 };

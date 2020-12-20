@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import coffe from '../../video/coffe.mp4';
+import coffe from '../../assets/video/coffe.mp4';
 
 const VideoPlay = (props, ref) => (
   <video
